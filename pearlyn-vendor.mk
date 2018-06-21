@@ -75,7 +75,55 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/razer/pearlyn/proprietary/bin/valiService:system/bin/valiService \
     vendor/razer/pearlyn/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/razer/pearlyn/proprietary/bin/wdsdaemon:system/bin/wdsdaemon
+    vendor/razer/pearlyn/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Handset_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_General_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_General_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Global_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Global_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Handset_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Handset_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Hdmi_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Hdmi_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Headset_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Headset_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Speaker_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Speaker_cal.acdb \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/razer/pearlyn/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
+    vendor/razer/pearlyn/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
+    vendor/razer/pearlyn/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
+    vendor/razer/pearlyn/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
+    vendor/razer/pearlyn/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
+    vendor/razer/pearlyn/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
+    vendor/razer/pearlyn/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
+    vendor/razer/pearlyn/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
+    vendor/razer/pearlyn/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/razer/pearlyn/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/razer/pearlyn/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/razer/pearlyn/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/razer/pearlyn/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/razer/pearlyn/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/razer/pearlyn/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/razer/pearlyn/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat
 
 PRODUCT_PACKAGES += \
     TimeService \
