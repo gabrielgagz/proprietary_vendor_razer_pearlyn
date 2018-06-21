@@ -140,7 +140,85 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/razer/pearlyn/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/razer/pearlyn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/razer/pearlyn/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
+    vendor/razer/pearlyn/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b03:system/vendor/firmware/adsp.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b04:system/vendor/firmware/adsp.b04 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b05:system/vendor/firmware/adsp.b05 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b06:system/vendor/firmware/adsp.b06 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b07:system/vendor/firmware/adsp.b07 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b08:system/vendor/firmware/adsp.b08 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b10:system/vendor/firmware/adsp.b10 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b11:system/vendor/firmware/adsp.b11 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b12:system/vendor/firmware/adsp.b12 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.mbn:system/vendor/firmware/adsp.mbn \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.mdt:system/vendor/firmware/adsp.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/bdwlan11.bin:system/vendor/firmware/bdwlan11.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/bdwlan20.bin:system/vendor/firmware/bdwlan20.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/cmnlib.b00:system/vendor/firmware/cmnlib.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/cmnlib.b01:system/vendor/firmware/cmnlib.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/cmnlib.b02:system/vendor/firmware/cmnlib.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/cmnlib.b03:system/vendor/firmware/cmnlib.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/cmnlib.mdt:system/vendor/firmware/cmnlib.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/isdbtmm.b00:system/vendor/firmware/isdbtmm.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/isdbtmm.b01:system/vendor/firmware/isdbtmm.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/isdbtmm.b02:system/vendor/firmware/isdbtmm.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/isdbtmm.b03:system/vendor/firmware/isdbtmm.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/isdbtmm.mdt:system/vendor/firmware/isdbtmm.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/otp11.bin:system/vendor/firmware/otp11.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/otp20.bin:system/vendor/firmware/otp20.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/playread.b00:system/vendor/firmware/playread.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/playread.b01:system/vendor/firmware/playread.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/playread.b02:system/vendor/firmware/playread.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/playread.b03:system/vendor/firmware/playread.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/playread.mdt:system/vendor/firmware/playread.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/qwlan11.bin:system/vendor/firmware/qwlan11.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/qwlan20.bin:system/vendor/firmware/qwlan20.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/sampleapp.b00:system/vendor/firmware/sampleapp.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/sampleapp.b01:system/vendor/firmware/sampleapp.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/sampleapp.b02:system/vendor/firmware/sampleapp.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/sampleapp.b03:system/vendor/firmware/sampleapp.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/sampleapp.mdt:system/vendor/firmware/sampleapp.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/securemm.b00:system/vendor/firmware/securemm.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/securemm.b01:system/vendor/firmware/securemm.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/securemm.b02:system/vendor/firmware/securemm.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/securemm.b03:system/vendor/firmware/securemm.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/securemm.mdt:system/vendor/firmware/securemm.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/tqs.b00:system/vendor/firmware/tqs.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/tqs.b01:system/vendor/firmware/tqs.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/tqs.b02:system/vendor/firmware/tqs.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/tqs.b03:system/vendor/firmware/tqs.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/tqs.mdt:system/vendor/firmware/tqs.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/utf11.bin:system/vendor/firmware/utf11.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/utf20.bin:system/vendor/firmware/utf20.bin \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b00:system/vendor/firmware/vpu.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b01:system/vendor/firmware/vpu.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b02:system/vendor/firmware/vpu.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b03:system/vendor/firmware/vpu.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b04:system/vendor/firmware/vpu.b04 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b05:system/vendor/firmware/vpu.b05 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b06:system/vendor/firmware/vpu.b06 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b07:system/vendor/firmware/vpu.b07 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b08:system/vendor/firmware/vpu.b08 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b09:system/vendor/firmware/vpu.b09 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b10:system/vendor/firmware/vpu.b10 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b11:system/vendor/firmware/vpu.b11 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.b12:system/vendor/firmware/vpu.b12 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.mbn:system/vendor/firmware/vpu.mbn \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/vpu.mdt:system/vendor/firmware/vpu.mdt \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/widevine.mbn:system/vendor/firmware/widevine.mbn \
+    vendor/razer/pearlyn/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt
 
 PRODUCT_PACKAGES += \
     TimeService \
