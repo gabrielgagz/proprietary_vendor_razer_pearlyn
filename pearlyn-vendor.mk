@@ -123,7 +123,20 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/razer/pearlyn/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/razer/pearlyn/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/razer/pearlyn/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat
+    vendor/razer/pearlyn/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
+    vendor/razer/pearlyn/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
+    vendor/razer/pearlyn/proprietary/lib/libantradio.so:system/lib/libantradio.so \
+    vendor/razer/pearlyn/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
+    vendor/razer/pearlyn/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
+    vendor/razer/pearlyn/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
+    vendor/razer/pearlyn/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
+    vendor/razer/pearlyn/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
+    vendor/razer/pearlyn/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
+    vendor/razer/pearlyn/proprietary/lib/libgoogle_tagger_aah_jni.so:system/lib/libgoogle_tagger_aah_jni.so \
+    vendor/razer/pearlyn/proprietary/lib/libiw.so:system/lib/libiw.so \
+    vendor/razer/pearlyn/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
+    vendor/razer/pearlyn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/razer/pearlyn/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so
 
 PRODUCT_PACKAGES += \
     TimeService \
