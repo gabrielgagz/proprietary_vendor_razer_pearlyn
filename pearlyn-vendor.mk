@@ -139,7 +139,8 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/razer/pearlyn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/razer/pearlyn/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
-    vendor/razer/pearlyn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine
+    vendor/razer/pearlyn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/razer/pearlyn/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf
 
 PRODUCT_PACKAGES += \
     TimeService \
