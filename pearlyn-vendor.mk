@@ -131,7 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
     vendor/razer/pearlyn/proprietary/lib/libgoogle_tagger_aah_jni.so:system/lib/libgoogle_tagger_aah_jni.so \
     vendor/razer/pearlyn/proprietary/lib/libiw.so:system/lib/libiw.so \
-    vendor/razer/pearlyn/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
     vendor/razer/pearlyn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/razer/pearlyn/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/razer/pearlyn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -369,6 +368,5 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     dpmapi \
     oem-services \
-    qcmediaplayer \
     tcmclient \
     libtime_genoff
