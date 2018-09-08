@@ -17,24 +17,13 @@
 PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/razer/pearlyn/proprietary/bin/PktRspTest:system/bin/PktRspTest \
-    vendor/razer/pearlyn/proprietary/bin/StoreKeybox:system/bin/StoreKeybox \
     vendor/razer/pearlyn/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/razer/pearlyn/proprietary/bin/athdiag:system/bin/athdiag \
     vendor/razer/pearlyn/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/razer/pearlyn/proprietary/bin/btnvtool_razer:system/bin/btnvtool_razer \
-    vendor/razer/pearlyn/proprietary/bin/cld-fwlog-netlink:system/bin/cld-fwlog-netlink \
-    vendor/razer/pearlyn/proprietary/bin/cld-fwlog-parser:system/bin/cld-fwlog-parser \
-    vendor/razer/pearlyn/proprietary/bin/cld-fwlog-record:system/bin/cld-fwlog-record \
     vendor/razer/pearlyn/proprietary/bin/cnd:system/bin/cnd \
     vendor/razer/pearlyn/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/razer/pearlyn/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/razer/pearlyn/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
-    vendor/razer/pearlyn/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
-    vendor/razer/pearlyn/proprietary/bin/diag_klog:system/bin/diag_klog \
-    vendor/razer/pearlyn/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/razer/pearlyn/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
-    vendor/razer/pearlyn/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
-    vendor/razer/pearlyn/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/razer/pearlyn/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/razer/pearlyn/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/razer/pearlyn/proprietary/bin/efsks:system/bin/efsks \
@@ -50,10 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/mdm_helper:system/bin/mdm_helper \
     vendor/razer/pearlyn/proprietary/bin/mdm_helper_proxy:system/bin/mdm_helper_proxy \
     vendor/razer/pearlyn/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/razer/pearlyn/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
-    vendor/razer/pearlyn/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
-    vendor/razer/pearlyn/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
-    vendor/razer/pearlyn/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
     vendor/razer/pearlyn/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/razer/pearlyn/proprietary/bin/n_smux:system/bin/n_smux \
     vendor/razer/pearlyn/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -134,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/razer/pearlyn/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/razer/pearlyn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/razer/pearlyn/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/razer/pearlyn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/razer/pearlyn/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
