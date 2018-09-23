@@ -108,9 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
     vendor/razer/pearlyn/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
     vendor/razer/pearlyn/proprietary/lib/libantradio.so:system/lib/libantradio.so \
-    vendor/razer/pearlyn/proprietary/lib/libaudiopolicyenginedefault.so:system/lib/libaudiopolicyenginedefault.so \
-    vendor/razer/pearlyn/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
-    vendor/razer/pearlyn/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
     vendor/razer/pearlyn/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
     vendor/razer/pearlyn/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
     vendor/razer/pearlyn/proprietary/lib/libextmedia_jni.so:system/lib/libextmedia_jni.so \
