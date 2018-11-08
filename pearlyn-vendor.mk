@@ -30,7 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/ethtool:system/bin/ethtool \
     vendor/razer/pearlyn/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/razer/pearlyn/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
-    vendor/razer/pearlyn/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/razer/pearlyn/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/razer/pearlyn/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/razer/pearlyn/proprietary/bin/iwconfig:system/bin/iwconfig \
     vendor/razer/pearlyn/proprietary/bin/iwlist:system/bin/iwlist \
