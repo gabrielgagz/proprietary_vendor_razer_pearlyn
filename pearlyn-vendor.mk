@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/razer/pearlyn/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/razer/pearlyn/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/razer/pearlyn/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
+    vendor/razer/pearlyn/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/razer/pearlyn/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
