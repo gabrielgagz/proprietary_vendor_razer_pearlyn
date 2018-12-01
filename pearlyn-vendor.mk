@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/razer/pearlyn/proprietary/bin/athdiag:system/bin/athdiag \
     vendor/razer/pearlyn/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
-    vendor/razer/pearlyn/proprietary/vendor/bin/btnvtool_razer:system/vendor/bin/btnvtool_razer \
     vendor/razer/pearlyn/proprietary/bin/cnd:system/bin/cnd \
     vendor/razer/pearlyn/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/razer/pearlyn/proprietary/bin/cnss_diag:system/bin/cnss_diag \
