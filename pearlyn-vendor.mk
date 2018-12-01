@@ -104,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/razer/pearlyn/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/razer/pearlyn/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/razer/pearlyn/proprietary/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat:system/etc/firmware/wlan/qca_cld/WCNSS_cfg.dat \
     vendor/razer/pearlyn/proprietary/lib/libGLES_trace.so:system/lib/libGLES_trace.so \
     vendor/razer/pearlyn/proprietary/lib/libantradio.so:system/lib/libantradio.so \
     vendor/razer/pearlyn/proprietary/lib/libdashplayer.so:system/lib/libdashplayer.so \
