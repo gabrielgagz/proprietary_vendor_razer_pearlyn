@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/athdiag:system/bin/athdiag \
     vendor/razer/pearlyn/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/razer/pearlyn/proprietary/bin/cnd:system/bin/cnd \
-    vendor/razer/pearlyn/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/razer/pearlyn/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/razer/pearlyn/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/razer/pearlyn/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/razer/pearlyn/proprietary/bin/dun-server:system/bin/dun-server \
