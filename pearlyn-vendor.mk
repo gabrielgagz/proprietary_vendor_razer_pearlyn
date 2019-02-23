@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/mdm_helper:system/bin/mdm_helper \
     vendor/razer/pearlyn/proprietary/bin/mdm_helper_proxy:system/bin/mdm_helper_proxy \
     vendor/razer/pearlyn/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/razer/pearlyn/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/razer/pearlyn/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/razer/pearlyn/proprietary/bin/n_smux:system/bin/n_smux \
     vendor/razer/pearlyn/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/razer/pearlyn/proprietary/bin/nl_listener:system/bin/nl_listener \
