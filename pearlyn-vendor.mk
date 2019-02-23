@@ -337,13 +337,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     TimeService \
-    ConnectivityExt \
-    QPerformance \
-    WfdCommon \
-    cneapiclient \
-    com.qti.dpmframework \
-    com.quicinc.cne \
-    dpmapi \
-    oem-services \
-    tcmclient \
     libtime_genoff
