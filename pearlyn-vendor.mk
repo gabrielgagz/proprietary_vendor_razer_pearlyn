@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/qcks:system/bin/qcks \
     vendor/razer/pearlyn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/razer/pearlyn/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
-    vendor/razer/pearlyn/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/razer/pearlyn/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/razer/pearlyn/proprietary/bin/radish:system/bin/radish \
     vendor/razer/pearlyn/proprietary/bin/ssr_diag:system/bin/ssr_diag \
     vendor/razer/pearlyn/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
