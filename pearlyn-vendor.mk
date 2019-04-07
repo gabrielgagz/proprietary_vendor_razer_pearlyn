@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/razer/pearlyn/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/razer/pearlyn/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
-    vendor/razer/pearlyn/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
@@ -320,7 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libuhid.so:system/vendor/lib/libuhid.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
