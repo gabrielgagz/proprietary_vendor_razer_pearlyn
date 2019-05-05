@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/razer/pearlyn/proprietary/vendor/lib/libhdmi.so:system/vendor/lib/libhdmi.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
